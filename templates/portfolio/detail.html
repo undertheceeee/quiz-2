@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <h2>{{ portfolio.portfolio_title }}</h2>
+    <p>{{ portfolio.portfolio_description }}</p>
+    <h4>Project: {{ portfolio.project.project_name }}</h4>
+    <p>{{ portfolio.project.project_description }}</p>
+</div>
+{% endblock %}
